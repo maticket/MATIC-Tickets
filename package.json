@@ -1,0 +1,26 @@
+{
+  "name": "my-stake",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@thirdweb-dev/react": "^4",
+    "@thirdweb-dev/sdk": "^4",
+    "ethers": "^5",
+    "next": "^13",
+    "react": "^18.2",
+    "react-dom": "^18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^17.0.53",
+    "eslint": "^8.32.0",
+    "eslint-config-next": "^13",
+    "typescript": "^4.9.4"
+  }
+}

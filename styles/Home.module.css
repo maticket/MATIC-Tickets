@@ -1,0 +1,279 @@
+.container {
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  padding: 0 24px;
+}
+.container1 {
+  margin-top:50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  padding: 0 24px;
+}
+
+.h1 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  display: flex;
+  color: rgba(227, 121, 253, 0.842);
+  align-items: center;
+  justify-content: left;
+}
+.link {
+  margin-bottom: 0px;
+  color: rgba(227, 121, 253, 0.842);
+}
+
+.explain {
+  font-size: 1rem;
+  max-width: 1800px;
+}
+
+.divider {
+  width: 100%;
+  border-color: grey;
+  opacity: 0.25;
+}
+
+.smallDivider {
+  width: 15%;
+  border-color: grey;
+  margin-top: 64px;
+  opacity: 0.25;
+}
+
+.nftBoxGrid {
+  width: 2200px;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.nftBoxGrid2 {
+  width: 2200px;
+  max-width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  padding-top: 50px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.optionSelectBox {
+  background: #3e04502f;
+  border-radius: 10px;
+  border: 1px solid #c81deb1f;
+  width: 17%;
+  min-height: 150px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.optionSelectBox1 {
+  background: #00000052;
+  border-radius: 5px;
+  border: 1px solid #45096d73;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 30px;
+  justify-content: center;
+  cursor: pointer;
+}
+.optionSelectBox2 {
+  background: #00000052;
+  border-radius: 15px;
+  border: 1px solid #45096d73;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+.optionSelectBox3 {
+  background: #00000052;
+  border-radius: 10px;
+  border: 1px solid #45096d73;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 30px;
+  justify-content: center;
+  cursor: pointer;
+}
+.optionSelectBox4 {
+  background: #00000052;
+  border-radius: 10px;
+  border: 1px solid #45096d73;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+.optionSelectBox5 {
+  background: #00000052;
+  border-radius: 10px;
+  border: 1px solid #45096d73;
+  width: 14.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+.selectBoxTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.selectBoxTitle2 {
+  color: rgba(227, 121, 253, 0.842);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.selectBoxDescription {
+  color: rgba(227, 121, 253, 0.842);
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+
+/* Between 1200 and 800 */
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+  .nftBox {
+    width: 49%;
+    margin-top: 16px;
+  }
+}
+
+/* beneath 800
+*/
+@media only screen and (max-width: 800px) {
+  .nftBoxGrid {
+    justify-content: center;
+  }
+  .nftBox {
+    width: 90%;
+    margin-top: 16px;
+  }
+  .optionSelectBox {
+    width: 90%;
+    margin-top: 16px;
+  }
+}
+
+.tokenGrid {
+  display: flex;
+  color: #4c66faef;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  width: 1200px;
+  max-width: 95vw;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  
+}
+
+.tokenItem {
+  width: 35%;
+  height: 120px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.068);
+  gap: 16px;
+}
+
+.tokenLabel {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Second tokenLabel item */
+
+.tokenValue {
+  font-size: 1.3rem;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+/* On Mobile, make tokenGrid 100% width */
+@media only screen and (max-width: 850px) {
+  .tokenItem {
+    width: 90%;
+    margin-top: 12px;
+  }
+}
+
+/* Screen less than 630, then hide .center */
+@media only screen and (max-width: 630px) {
+  .center {
+    display: none;
+  }
+}
+
+.spacerTop {
+  margin-top: 16px;
+}
+
+.bigSpacerTop {
+  margin-top: 32px;
+}
+
+.spacerBottom {
+  margin-bottom: 16px;
+}
+
+.detailPageHr {
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.nftMedia {
+  width: 100%;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 15px;
+}

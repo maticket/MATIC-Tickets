@@ -1,0 +1,82 @@
+.navContainer {
+    width: 100%;
+    display: flex;
+    align-items: cenrter;
+    justify-content: center;
+    position: fixed;
+    background-color: #00000052;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  
+  .nav {
+    padding-left: 0em;
+    padding-right: 0em;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1800px;
+    background-color: transparent !important;
+  }
+  
+  .navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .navMiddle {
+    display: flex;
+    margin-left: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link:hover {
+    color: rgb(241, 238, 25);
+  }
+  
+  .homeLink:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .navRight {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homeLink {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .buttonLink:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Sreens less than 720px */
+  @media (max-width: 500px) {
+    .navConnect {
+      display: none !important;
+    }
+  }
