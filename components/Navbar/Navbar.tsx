@@ -125,13 +125,13 @@ export function Navbar() {
            title: "MATICKET",
            subtitle: "NFT Tickets Platform",
            img: {
-             src: "https://i.imgur.com/CwG7uYq.png",
+             src: "https://i.imgur.com/vlxlwtu.png",
              width: 150,
              height: 150,
            },
          }}
          modalTitleIconUrl={
-           "https://i.imgur.com/CwG7uYq.png"
+           "https://i.imgur.com/vlxlwtu.png"
          }
        />
         </div>
